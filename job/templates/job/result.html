@@ -1,0 +1,7 @@
+{% extends 'job/base.html' %}
+{% block body %}
+<h1>This is the page om which the result will be shown</h1>
+{% for word,value in words_dict %}
+    <p> {{ word }} - {{ value }} </p>
+{% endfor %}
+{% endblock %}
